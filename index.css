@@ -1,0 +1,74 @@
+@charset "utf-8";
+body{
+    background-image: url("../img/image.png");
+    background-size: cover;
+}
+li{
+    display: inline;
+}
+a{
+    float:left;
+    display: block;
+    padding: 15px;
+    color:  #d98266;
+}
+
+/*Add.php*/
+body{
+    position: relative;
+}
+form{
+    margin-top: 150px;
+    margin-left: 450px;
+}
+input[type=text]{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    width: 300px;
+    height: 20px;
+    background-color: #dbb7ab;
+    border: none;
+    padding: 8px;
+}
+label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color:  #ae401d;
+}
+input[type=submit]{
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    border-radius:30px;
+    padding: 8px;
+    border: none;
+    background-color:  #d98266;
+    margin-top: 20px;
+    color: #cbcbcd;
+}
+table,td,th {
+   border: 1px  #d98266;
+}
+table{
+    border-collapse: collapse;
+    width: 30%;
+    margin-top: 85px;
+    margin-left:450px;
+}
+th{
+    color: #ae401d;
+}
+tr{
+    color: #d98266;
+}
+h1{
+    text-align: center;
+    color: rgb(212, 126, 126);
+    margin-left: -70px;
+}
+
+
+
